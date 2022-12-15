@@ -1,0 +1,490 @@
+* body {
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.section_1 {
+  width: 40vw;
+  font-family: montserrat;
+  background-color: #FFFEFF;
+  padding-bottom: 50px;
+  margin-top: 50px;
+}
+
+.section_1 button {
+  width: 150px;
+  height: 30px;
+  cursor: pointer;
+}
+
+#nav_styleguide {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 40vw;
+}
+
+#nav_styleguide h1 {
+  margin: 20px 0;
+}
+
+/* er en knap */
+#ryd_login_siden, #se_igen {
+  background-color: orange;
+  color: white;
+}
+
+.section_1 h1 {
+  margin-top: 50px;
+}
+
+.section_2 {
+  width: 50vw;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  background-color: #F6F6F4;
+}
+
+
+.mobil {
+  border: 7px solid black;
+  height: 562.398px;
+  width: 252px;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 50px;
+  overflow-y: scroll;
+  padding: 0 10px;
+}
+
+.mobil::-webkit-scrollbar {
+    display: none;
+}
+
+#nav_mobil {
+  position: sticky;
+  height: 50.61px;
+  bottom: 0;
+  border-radius: 15px 15px 0 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 -10px;
+}
+
+#nav_mobil img {
+  height: 40%;
+}
+
+/* Farver */
+
+/* background: linear-gradient(180deg, rgba(230,215,192,1) 0%, rgba(179,166,145,1) 40%, rgba(99,88,71,1) 100%); */
+
+#baggrund_farve, #baggrund_farve2 {
+
+  background: white;
+}
+
+#nav_mobil {
+  background: rgb(230,215,192);
+  background: linear-gradient(180deg, rgba(230,215,192,1) 0%, rgba(183,171,153,1) 50%, rgba(115,108,96,1) 100%);
+}
+
+.mobil {
+  color: #FFFAF4;
+}
+
+/* Cards */
+
+.overskrift_cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* landscape */
+
+.cards_landscape {
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 5px;
+
+  overflow-x: auto;
+}
+
+.cards_landscape::-webkit-scrollbar {
+    display: none;
+}
+
+#landscape_card1, #landscape_card2 {
+  width: 158.4px;
+  height: 92.79px;
+  background-color: white;
+  position: relative;
+  border-radius: 19px;
+  box-shadow: 1px 3px 3px #58544D;
+  background-size: cover;
+}
+
+#landscape_card1 {
+  background-image: url(billeder/pexels-craig-adderley-2306203.jpg);
+}
+
+#landscape_card2 {
+  background-image: url(billeder/pexels-noelle-otto-906097.jpg);
+}
+
+.cards_landscape p {
+  margin: 5px 0;
+  font-size: 12px;
+}
+
+.tid_card {
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  bottom: 7px;
+  left: 7px;
+  font-size: 10px;
+  background-color: rgba(69,67,67, 67%);
+  padding: 3px 10px;
+  border-radius: 19px;
+}
+
+/* Portrait */
+
+#portrait_card1, #portrait_card2, #portrait_card3, #portrait_card4 {
+  width: 92.79px;
+  height: 158.4px;
+  background-color: white;
+  position: relative;
+  border-radius: 19px;
+  box-shadow: 1px 3px 3px #58544D;
+  background-size: cover;
+}
+
+#portrait_card1 {
+  background-image: url(billeder/pexels-elina-fairytale-3822621.jpg);
+}
+
+#portrait_card2 {
+  background-image: url(billeder/pexels-elina-fairytale-3823086.jpg);
+}
+
+#portrait_card3 {
+  background-image: url(billeder/pexels-lucas-pezeta-2035066.jpg);
+}
+
+#portrait_card4 {
+  background-image: url(billeder/pexels-valeria-ushakova-3094215.jpg);
+}
+
+/* Lyd */
+
+#lyd_card1, #lyd_card2, #lyd_card3, #lyd_card4 {
+  width: 84.41px;
+  height: 84.41px;
+  background-color: white;
+  position: relative;
+  border-radius: 19px;
+  box-shadow: 1px 3px 3px #58544D;
+  background-size: cover;
+}
+
+#lyd_card1 {
+  background-image: url(billeder/pexels-eberhard-grossgasteiger-572897.jpg);
+}
+
+#lyd_card2 {
+  background-image: url(billeder/pexels-craig-adderley-2306203.jpg);
+}
+
+#lyd_card3 {
+  background-image: url(billeder/pexels-noelle-otto-906097.jpg);
+}
+
+#lyd_card4 {
+  background-image: url(billeder/pexels-valeria-ushakova-3094215.jpg);
+}
+
+/* Premium */
+
+.premium {
+  height: 144.59px;
+  border-radius: 100px / 50px;
+
+  background-image: url(billeder/logo5.png);
+  background-size: cover;
+  background-position: center;
+
+  text-align: center;
+
+  display: flex;
+  align-items: flex-end;
+
+  margin-top: 20px;
+}
+
+.premium div {
+  margin: 0 auto;
+}
+
+a {
+  color: #FFFAF4;
+  text-decoration: none;
+}
+
+#adgang_tekst {
+  font-size: 12px;
+  margin: 0;
+}
+
+#karma_circle_tekst {
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+#premium_knap {
+  width: 90%;
+  border-radius: 20px;
+  padding: 10px 0;
+  border: none;
+  background-color: #DD9E5F;
+  box-shadow: 1px 3px 3px #58544D;
+  color: #FFFAF4;
+}
+
+/* Kategori */
+
+#kategori_card1, #kategori_card2, #kategori_card3, #kategori_card4 {
+  width: 158.4px;
+  height: 92.79px;
+  background-color: rgba(89, 84, 78,);
+  border-radius: 19px;
+  box-shadow: 1px 3px 3px #58544D;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+#kategori_card1 {
+  background-image: url(billeder/pexels-cliff-booth-4056723.jpg);
+}
+
+#kategori_card2 {
+  background-image: url(billeder/pexels-noelle-otto-906097.jpg);
+}
+
+#kategori_card3 {
+  background-image: url(billeder/pexels-vlada-karpovich-5357328.jpg);
+  background-position: bottom;
+}
+
+#kategori_card4 {
+  background-image: url(billeder/pexels-zetong-li-1784577.jpg);
+}
+
+.lortelort {
+  position: relative;
+}
+
+.tekst_kat_card{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 20px;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+}
+
+/* Hero */
+
+#hero {
+  height: 115.17px;
+  width: 100%;
+  margin: 0 -10px;
+  padding: 0 10px;
+  text-align: center;
+  background-color: rgba(89, 84, 78, 0.5);
+  /* margin-top: -562.398px;  */
+  position: relative;
+}
+
+#hero img {
+  height: 100%;
+  opacity: 0.5;
+}
+
+#hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  margin: 0;
+  opacity: 1;
+}
+
+/* Pop up */
+
+#wrapper_popup {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+
+  height: 562.398px;
+  width: 252px;
+  margin: 0 -10px;
+  padding: 0 10px;
+  background-color: rgba(112,112,112, 50%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  display: none;
+}
+
+.popup {
+  height: 308px;
+  width: 226.8px;
+  background-color: #FFFAF4;
+  border-radius: 19px;
+  color: #707070;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: relative;
+}
+
+.popup img {
+  height: 30%;
+  margin-bottom: 8.93%;
+  margin-top: 8.93%;
+}
+
+.popup h2, .popup p {
+  margin: 0;
+}
+
+.popup p {
+  font-size: 12px;
+  text-align: center;
+  margin: 0 11.9%;
+  margin-top: 5px;
+  margin-bottom: 9.52%;
+}
+
+.kryds {
+  background-color: #FFFAF4;
+  border: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #707070;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.CTA_knap {
+  width: 90%;
+  border-radius: 20px;
+  border: none;
+  background-color: #58544D;
+  color: #FFFAF4;
+  padding: 10px 0;
+  box-shadow: 1px 3px 3px #000000;
+}
+
+/* tekst */
+
+.mobil h3, .mobil h3 {
+  font-size: 20px;
+}
+
+.mobil h4,.mobil h4 {
+  font-size: 12px;
+  margin: 0;
+}
+
+.mobil h5, .mobil h5 {
+  font-size: 10px;
+  color: rgba(255, 250, 244, 0.5);
+  margin: 0;
+}
+
+/* display none */
+
+.mobil #logo_login, #login_input1, #login_input2, #login_knap, #login_tilbage_knap, #login_tilbage_pil {
+  display: none;
+}
+
+#nav_mobil, #hero, #landscape_cards, #portrait_cards, #lyd_cards, #kategori_cards, #premium_cta, #sidst_afspillet_h3, #yoga_h3, #meditation_h3, #kategori_h3, #se_alle3, #se_alle2, #se_alle1 {
+  opacity: 0;
+}
+
+
+/* login side */
+
+.login_side {
+  height: 100%;
+  text-align: center;
+  position: relative;
+}
+
+#logo_login {
+  height: 27.84%;
+  margin-top: 9.52%;
+  margin-bottom: 7.14%;
+}
+
+.login_side input {
+  width: 74.87%;
+  height: 5.57%;
+  border-radius: 8px;
+  border: none;
+  margin: 20px;
+  margin-top: 0;
+  box-shadow: 1px 3px 3px #4E4B48;
+  color: #707070;
+  padding-left: 5px;
+}
+
+.login_side button {
+  width: 74.87%;
+  height: 5.57%;
+  border-radius: 19px;
+  border: none;
+  margin: 10px;
+  box-shadow: 1px 3px 3px #4E4B48;
+  color: #707070;
+}
+
+#login_knap {
+  margin-top: 20%;
+  background-color: #59544E;
+  box-shadow: 1px 3px 3px #000000;
+  color: #FFFFFF;
+}
+
+#login_tilbage_pil {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  margin: 0px;
+  height: 2.38%;
+}
