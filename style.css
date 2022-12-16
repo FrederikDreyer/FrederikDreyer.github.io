@@ -501,6 +501,21 @@ a {
 }
 
 /* input */
+.input_felt {
+display: none;
+}
+
+.input_felt input{
+
+  border: none;
+  box-shadow: 1px 3px 3px #4E4B48;
+  border-radius: 8px;
+  width: 195.67px;
+  height: 33.32px;
+  color: #707070;
+  padding-left: 5px;
+  margin: 10px;
+}
 
 .login_side button {
   width: 74.87%;
