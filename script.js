@@ -1,13 +1,5 @@
 console.log("virker det");
 
-function styleMenu() {
-  if (document.getElementById('style_menu').style.display === "block") {
-    document.getElementById('style_menu').style.display = "none";
-  } else {
-    document.getElementById('style_menu').style.display = "block";
-  }
-}
-
 function myPopup() {
   let popup = document.getElementById('wrapper_popup');
   let hero = document.getElementById('hero');

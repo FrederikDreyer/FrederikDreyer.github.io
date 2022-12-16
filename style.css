@@ -112,11 +112,10 @@ html {
 
 .burger_nav a {
     display: block;
-    width: 100%;
-    max-width: 200px;
+    width: 25vw;
     margin: 0 auto 16px;
     text-align: center;
-    padding: 12px 80px;
+    padding: 12px 0px;
     background-color: #D0C2AE;
     color: #454343;
     text-decoration: none;
@@ -653,6 +652,13 @@ display: none;
     overflow-y: scroll;
     padding: 0 10px;
   }
+  .burger_nav {
+    width: 50%
+  }
+
+  .burger_nav a {
+    width: 45vw;
+  }
 }
 
 /* Responsiv mobil */
@@ -696,5 +702,13 @@ display: none;
     padding: 5px;
     bottom: 10px;
     height: 20%;
+  }
+
+  .burger_nav {
+    width: 50%
+  }
+
+  .burger_nav a {
+    width: 45vw;
   }
 }
