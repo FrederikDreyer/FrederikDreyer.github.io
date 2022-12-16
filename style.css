@@ -19,7 +19,6 @@ html {
   font-family: montserrat;
   background-color: #FFFEFF;
   padding-bottom: 50px;
-  margin-top: 50px;
 }
 
 .section_1 button {
@@ -29,8 +28,6 @@ html {
 }
 
 #nav_styleguide {
-  position: fixed;
-  top: 0;
   background-color: white;
   width: 40vw;
 }
@@ -64,7 +61,7 @@ html {
   width: 252px;
   border-radius: 20px;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 10vh;
   overflow-y: scroll;
   padding: 0 10px;
 }
@@ -487,4 +484,115 @@ a {
   top: 10px;
   margin: 0px;
   height: 2.38%;
+}
+
+
+
+/* responsiv ipad stående */
+
+@media only screen and (max-width: 830px) {
+  .wrapper {
+    display: block;
+    overflow: hidden;
+  }
+
+  .section_1 {
+    width: 90vw;
+    margin-bottom: 50vh;
+    margin-right: 20px;
+  }
+
+  #nav_styleguide {
+    width: 100vw;
+  }
+
+  .section_2 {
+    width: 100vw;
+    left: 0;
+    top: 50%;
+    bottom: 0;
+  }
+
+  .mobil {
+    border: 7px solid black;
+    height: 562.398px;
+    width: 252px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 10px;
+    overflow-y: scroll;
+    padding: 0 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    display: block;
+    overflow: hidden;
+  }
+
+  .section_1 {
+    width: 90vw;
+    margin-bottom: 60vh;
+    margin-right: 20px;
+  }
+
+  #nav_styleguide {
+    width: 100vw;
+  }
+
+  .section_2 {
+    width: 100vw;
+    left: 0;
+    top: 40%;
+    bottom: 0;
+  }
+
+  .mobil {
+    border: 7px solid black;
+    height: 562.398px;
+    width: 252px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 10px;
+    overflow-y: scroll;
+    padding: 0 10px;
+  }
+}
+
+/* Responsiv mobil */
+
+@media only screen and (max-width: 500px) {
+  .wrapper {
+    display: block;
+    overflow: hidden;
+  }
+
+  .section_1 {
+    width: 90vw;
+    margin-bottom: 65vh;
+    margin-right: 20px;
+  }
+
+  #nav_styleguide {
+    width: 100vw;
+  }
+
+  .section_2 {
+    width: 100vw;
+    left: 0;
+    top: 35%;
+    bottom: 0;
+  }
+
+  .mobil {
+    border: 7px solid black;
+    height: 562.398px;
+    width: 252px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 10px;
+    overflow-y: scroll;
+    padding: 0 10px;
+  }
 }
