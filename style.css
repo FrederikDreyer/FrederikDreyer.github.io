@@ -36,6 +36,57 @@ html {
   margin: 20px 0;
 }
 
+/* Tanja: hamburger menu  */
+.hamburger {
+  position: relative;
+  cursor: pointer;
+  appearance: none;
+  background: none;
+  outline: none;
+  border: none;
+  z-index: 500;
+}
+
+.hamburger .bar, .hamburger:after, .hamburger:before {
+  content: '';
+  display: block;
+  width: 35px;
+  height: 5px;
+  background-color: #454343;
+  margin: 6px 0px;
+  transition: 0.4s;
+}
+
+.burger_nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+  min-height: 100vh;
+  display: none;
+  z-index: 350;
+  background-color: #E6D7C0;
+  padding-top: 120px;
+  transition: 0.4s;
+
+}
+
+.burger_nav a {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto 16px;
+    text-align: center;
+    padding: 12px 80px;
+    background-color: #D0C2AE;
+    color: #454343;
+    text-decoration: none;
+  }
+
+.burger_nav a:hover {
+    background-color: #C1B4A0;
+  }
+
 /* er en knap */
 #ryd_login_siden, #se_igen {
   background-color: orange;

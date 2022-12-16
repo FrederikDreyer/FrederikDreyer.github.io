@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
+    <script src="script-tanja.js" defer>
+
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap" rel="stylesheet">
     <title></title>
   </head>
@@ -16,15 +19,36 @@
 
         <div id="nav_styleguide">
 
+          <button onclick="showMenu()"class="hamburger">
+            <div class="bar"></div>
+          </button>
+
+          <nav class="burger_nav" id="nav_tanja">
+            <a href="#nav-1">Eksempler fra login-side</a>
+            <a href="#nav-2">Logo</a>
+            <a href="#nav-3">Farver</a>
+            <a href="#nav-4">Inputfelter</a>
+            <a href="#nav-5">Knapper</a>
+            <a href="#nav-6">Typografi</a>
+            <a href="#nav-7">Eksempler fra forsiden</a>
+            <a href="#nav-8">Navigation</a>
+            <a href="#nav-9">Hero</a>
+            <a href="#nav-10">Ikoner</a>
+            <a href="#nav-11">Cards</a>
+            <a href="#nav-12">Font</a>
+            <a href="#knapper">Knapper (forside)</a>
+            <a href="#nav-13">Popup</a>
+    </nav>
+
           <h1>Styleguide - Karma Circle</h1>
 
           <hr>
 
         </div>
 
-        <h1>Eksempler fra Login siden</h1>
+        <h1 id="nav-1">Eksempler fra Login siden</h1>
 
-        <h1>Logo</h1>
+        <h1 id="nav-2">Logo</h1>
         <p>
           Karma Circle's logo, består af en ung kvinde, som sidder i en meditationsstilling. Rundt om kvinden er der grene med blade. Disse grene snor sig som cirkler, og symbolisere livets cirkler. Kvinden er klædt i hvidt, for at skabe et roligt udtryk, samt symbolisere hvid renhed og godhed.
           Hele logoets udtryk symbolisere balance og stabilitet. Kvinden er centreret i midten af cirklen, som symbolisere hun har skabt balance i sit liv.
@@ -41,45 +65,45 @@
 
         <button type="button" name="button" onclick="logoLogin()" id="logo_knap">Se logo</button>
 
-        <h1>Farver</h1>
+        <h1 id="nav-3">Farver</h1>
         <p>Der bruges rolige farver til at fremtræde Karma Circle's brand identitet. De primære farver der gøres brug af, er beige og grå, hvor de gradueres, til brug ved baggrund på de sociale medier. Orange er call-to-action farven.</p>
         <h3>Baggrund</h3>
         <button type="button" name="button" onclick="functionName3()">Se baggrund</button>
         <h3>Tekst</h3>
 
-        <h1>Input felter</h1>
+        <h1 id="nav-4">Input felter</h1>
         <button type="button" name="button" onclick="functionName4()">Se input felter</button>
 
-        <h1>Knapper</h1>
+        <h1 id="nav-5">Knapper</h1>
         <button type="button" name="button" onclick="functionName5()">Se knapper</button>
 
-        <h1>Typografi</h1>
+        <h1 id="nav-6">Typografi</h1>
         <h3>Font</h3>
         <p>Lato</p>
         <button type="button" name="button" onclick="functionName6()">Se font</button>
         <h1></h1>
         <hr>
 
-        <h1>Eksempler fra forsiden</h1>
+        <h1 id="nav-7">Eksempler fra forsiden</h1>
         <button type="button" name="button" onclick="functionName7()" id="ryd_login_siden">Ryd login siden</button>
 
-        <h1>Navigation</h1>
+        <h1 id="nav-8">Navigation</h1>
         <button type="button" name="button" onclick="functionName8()">Se nav</button>
 
-        <h1>Hero</h1>
+        <h1 id="nav-9">Hero</h1>
         <button type="button" name="button" onclick="functionName9()">Se hero</button>
 
-        <h1>Ikoner</h1>
+        <h1 id="nav-10">Ikoner</h1>
         <button type="button" name="button" onclick="navIkoner()">Se ikoner</button>
 
-        <h1>Cards</h1>
+        <h1 id="nav-11">Cards</h1>
         <h3>Video - Horisontal</h3>
         <h3>Video - Vertikal</h3>
         <h3>Lyd</h3>
         <h3>Kategorier</h3>
         <button type="button" name="button" onclick="functionName10()">Se alle cards</button>
 
-        <h1>Font</h1>
+        <h1 id="nav-12">Font</h1>
         <h3>H1</h3>
           <button type="button" name="button" onclick="hEt()">Se H1</button>
         <h3>H2</h3>
@@ -99,7 +123,7 @@
         <h3>CTA</h3>
         <button type="button" name="button" onclick="functionName11()">Se CTA</button>
 
-        <h1>Popup</h1>
+        <h1 id="nav-13">Popup</h1>
           <button type="button" name="button" id="popup_knap" onclick="myPopup()">Se popup</button>
 
         <h1>Vil du se login siden igen?</h1>
