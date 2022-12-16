@@ -1,6 +1,5 @@
 console.log("virker det");
 
-
 function styleMenu() {
   if (document.getElementById('style_menu').style.display === "block") {
     document.getElementById('style_menu').style.display = "none";
@@ -94,6 +93,7 @@ function functionName11() {
     premiumCta.style.border = "none";
   }
 }
+
 
 function navIkoner() {
   let home = document.getElementById('home_ikon');
