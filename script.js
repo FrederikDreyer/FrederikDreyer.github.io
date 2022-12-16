@@ -39,10 +39,7 @@ function functionName3() {
  document.getElementById('baggrund_farve').style.background = "linear-gradient(180deg, rgba(230,215,192,1) 0%, rgba(179,166,145,1) 40%, rgba(99,88,71,1) 100%)";
 }
 
-function functionName4() {
- document.getElementById('login_input1').style.display = "inline-block";
- document.getElementById('login_input2').style.display = "inline-block";
-}
+
 
 function functionName5() {
  document.getElementById('login_knap').style.display = "inline-block";
