@@ -1,4 +1,4 @@
-console.log("virker det");
+console.log("virker det?");
 
 function myPopup() {
   let popup = document.getElementById('wrapper_popup');
