@@ -27,6 +27,44 @@ html {
   cursor: pointer;
 }
 
+/* Laura's popup */
+#popup_laura {
+  border: black 2px solid;
+  border-radius: 15px;
+  border-color: white;
+  padding: 0 10px 20px 10px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: none;
+  background-color: #95ac8e;
+  width: 300px;
+  z-index: 999;
+}
+
+#knapLaura {
+  float: right;
+  background-color: #95ac8e;
+  border: none;
+  color: white;
+  width: auto;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#laurah1 {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+#laurap {
+  color: white;
+  text-align: center;
+}
+
+
 #nav_styleguide {
   background-color: white;
   width: 40vw;
@@ -35,6 +73,7 @@ html {
 #nav_styleguide h1 {
   margin: 20px 0;
 }
+
 
 /* Tanja: hamburger menu  */
 .hamburger {
@@ -650,5 +689,12 @@ display: none;
     margin-top: 10px;
     overflow-y: scroll;
     padding: 0 10px;
+  }
+
+  #popup_laura {
+    width: 90%;
+    padding: 5px;
+    bottom: 10px;
+    height: 20%;
   }
 }
