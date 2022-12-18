@@ -25,6 +25,48 @@ html {
   width: 150px;
   height: 30px;
   cursor: pointer;
+  display: block;
+}
+
+/* kode billeder */
+
+.section_1 img {
+  width: 50%;
+}
+
+/* farver */
+
+.farve1, .farve2, .farve3, .farve4, .farve5, .farve6 {
+  width: auto;
+  height: 50px;
+  padding: 5px;
+  color: white;
+}
+
+.farve1 {
+  background-color: #3F664A;
+}
+
+.farve2 {
+  background-color: #95AC8E;
+}
+
+.farve3 {
+  background-color: #E6D7C0;
+}
+
+.farve4 {
+  background-color: #DD9E5F;
+}
+
+.farve5 {
+  background-color: #454343;
+}
+
+.farve6 {
+  background-color: #FFFAF4;
+  border: 1px solid black;
+  color: black;
 }
 
 /* Laura's popup */
@@ -544,7 +586,6 @@ display: none;
 }
 
 .input_felt input{
-
   border: none;
   box-shadow: 1px 3px 3px #4E4B48;
   border-radius: 8px;
