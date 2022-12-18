@@ -192,7 +192,7 @@ html {
   width: 252px;
   border-radius: 20px;
   margin: auto;
-  margin-top: 10px;;
+  margin-top: 10px;
   overflow-y: scroll;
   padding: 0 10px;
 }
@@ -400,7 +400,7 @@ a {
 #kategori_card1, #kategori_card2, #kategori_card3, #kategori_card4 {
   width: 158.4px;
   height: 92.79px;
-  background-color: rgba(89, 84, 78,);
+  background-color: rgba(89, 84, 78, 1);
   border-radius: 19px;
   box-shadow: 1px 3px 3px #58544D;
   background-size: cover;
