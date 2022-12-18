@@ -16,8 +16,7 @@ html {
 
 .section_1 {
   width: 40vw;
-  font-family: 'montserrat';
-  font: 'montserrat';
+  font-family: 'Montserrat', sans-serif;
   background-color: #FFFEFF;
   padding-bottom: 50px;
 }
